@@ -1,0 +1,55 @@
+.main {
+  margin: 20px auto;
+}
+ul.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+ul.todo-list li {
+  margin: 10px 0;
+}
+span.complete {
+  text-decoration: line-through;
+}
+span.delete-button {
+  background-color: red;
+  color: white;
+  padding: 3px;
+  float: right;
+}
+span.delete-button:hover {
+  cursor: pointer;
+}
+.form-div {
+  text-align: center;
+}
+.form-div input {
+  width: 250px;
+}
+.ajoutTitle{
+  width: 300px;
+
+
+
+}
+#done,#inprogress{
+margin-left: 20px;
+margin-right: 20px;
+}
+.newtask{
+width: 350px;
+}
+.task{
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 600px;
+ padding: 10px;
+  border-style: solid;
+  border-color: gray ;
+  border-radius: 20px;
+}
+
+body{
+  background-color:aquamarine;
+
+}
